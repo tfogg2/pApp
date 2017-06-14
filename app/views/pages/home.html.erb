@@ -1,0 +1,16 @@
+<div id="home">
+	<div class="centerBlock content">
+		<div id="slogan"></div>
+			<%= react_component("Application", { greeting: "Hello" }) %>
+		<!-- <p>Buy and Sell Code</p> -->
+		<%- if user_signed_in? %>
+			<%= button_to "Get Started", user_path(current_user), method: :get, class: "startBtn" %>
+		<%- else %>
+			<%= button_to "Get Started", new_user_registration_path, method: :get, class: "startBtn" %>
+		<%- end %>
+	</div>
+
+</div>
+<div id="search">
+
+</div>

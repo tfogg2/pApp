@@ -1,0 +1,58 @@
+body{
+	margin-top:0;
+}
+h1,h2,h3{
+	margin: 0;
+	padding: 5px;
+}
+
+
+.navbar-header.content, .content{
+	float:none;
+	width: 65%;
+	margin-right: auto;
+	margin-left: auto;
+}
+li#logo {
+	padding-top: 5px;
+}
+.brand{
+	color: #FCD400;
+	font-size: 200%;
+	text-decoration: none;
+	margin: 5px 0;
+}
+.brand:hover{
+	color:white;
+	text-decoration: none;
+}
+
+#home{
+	background: url('MountCook.jpg') no-repeat center center fixed ;
+	background-size: 100% ;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 50px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    color:white;
+	text-align: center;
+}
+
+
+.centerBlock{
+	padding-top: 15%;
+	height: 100%;
+	line-height: 200%;
+}
+.centerBlock input{
+	background: #FCD400;
+	border-radius: 5px;
+	width:20%;
+	border:none;
+	margin-top: 20px;
+	color: #2D2E36;
+	font-size: 115%;
+
+}
